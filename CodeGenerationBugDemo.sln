@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DEFA079B-02C9-4A6E-B6C5-3151EF855FC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeGenerationBugDemo.Library", "src\CodeGenerationBugDemo.Library\CodeGenerationBugDemo.Library.csproj", "{884A5825-B3D4-46E9-BC1C-1F1CCB36D94A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeGenerationBugDemo.Generator", "src\CodeGenerationBugDemo.Generator\CodeGenerationBugDemo.Generator.csproj", "{E4AE7AC0-7848-4242-896B-A6940EB3BDC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeGenerationBugDemo.GeneratorTests", "src\CodeGenerationBugDemo.GeneratorTests\CodeGenerationBugDemo.GeneratorTests.csproj", "{7D37E7C5-7286-46F9-AF1D-04C527098089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{13395DAE-2B8C-42A1-954D-659C1646D7BC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{884A5825-B3D4-46E9-BC1C-1F1CCB36D94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884A5825-B3D4-46E9-BC1C-1F1CCB36D94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884A5825-B3D4-46E9-BC1C-1F1CCB36D94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884A5825-B3D4-46E9-BC1C-1F1CCB36D94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AE7AC0-7848-4242-896B-A6940EB3BDC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AE7AC0-7848-4242-896B-A6940EB3BDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AE7AC0-7848-4242-896B-A6940EB3BDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AE7AC0-7848-4242-896B-A6940EB3BDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D37E7C5-7286-46F9-AF1D-04C527098089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D37E7C5-7286-46F9-AF1D-04C527098089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D37E7C5-7286-46F9-AF1D-04C527098089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D37E7C5-7286-46F9-AF1D-04C527098089}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{884A5825-B3D4-46E9-BC1C-1F1CCB36D94A} = {DEFA079B-02C9-4A6E-B6C5-3151EF855FC3}
+		{E4AE7AC0-7848-4242-896B-A6940EB3BDC0} = {DEFA079B-02C9-4A6E-B6C5-3151EF855FC3}
+		{7D37E7C5-7286-46F9-AF1D-04C527098089} = {DEFA079B-02C9-4A6E-B6C5-3151EF855FC3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25658E72-504F-4A2A-B0CA-6E9376D25D8C}
+	EndGlobalSection
+EndGlobal
